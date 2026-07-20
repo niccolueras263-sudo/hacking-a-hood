@@ -1,0 +1,37 @@
+class sneaker:
+def__init__(self, name, price):
+self.name = name
+self.price = price
+book1 = Book("Python 101", 20)
+book2 = Book("Python Cats", 15)
+def set_price(self, amount):
+if amount < 0:
+print("A price can't be below zero!") 
+else:
+    self.price. = amount
+class Ebook(Book)
+pass copy everything
+class Book:
+def deliver(self): print("Mailing It!")
+class Ebook(Book) 
+def deliver(self): print("Downloading") 
+class Cart:
+def__init__(self):
+self.items = [] empty
+def DD(self, item): 
+self.items.append(item)
+print(item.name +" added!")
+store = ("1": book1, "2": ebook1)
+cart = Cart
+shopping = True
+While shopping:
+choice = input ("Pick 1, 2, or 'done': ")
+If choice == "done":
+else: 
+cart.add(store[choice])
+def checkout(self):
+total = 0
+for item in shelf.items:
+item.deliver()
+total - total + item.price
+print("Total: $"+ str(total))

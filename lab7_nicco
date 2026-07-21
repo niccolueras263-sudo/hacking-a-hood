@@ -1,4 +1,4 @@
-class sneaker:
+import random
 def__init__(self, name, price):
 self.name = name
 self.price = price
@@ -8,7 +8,7 @@ def set_price(self, amount):
 if amount < 0:
 print("A price can't be below zero!") 
 else:
-    self.price. = amount
+self.price. = amount
 class Ebook(Book)
 pass copy everything
 class Book:
@@ -35,3 +35,13 @@ for item in shelf.items:
 item.deliver()
 total - total + item.price
 print("Total: $"+ str(total))
+Python 101 - $10
+Space Cats - $15
+'done'1
+Sorry, that's not on the menu!
+"done" done
+----- Your receipt -----
+Python 101 ..... $10
+You bought 1 items.
+Mailing it!
+Total: $10
